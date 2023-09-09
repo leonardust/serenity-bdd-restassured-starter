@@ -16,8 +16,8 @@
         <maven.surefire.plugin.version>3.1.2</maven.surefire.plugin.version>
         <maven.failsafe.plugin.version>3.1.2</maven.failsafe.plugin.version>
         <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <tags></tags>
         <webdriver.base.url></webdriver.base.url>
     </properties>
