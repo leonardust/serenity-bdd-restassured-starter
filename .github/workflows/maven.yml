@@ -29,3 +29,9 @@ jobs:
 
     - name: Build with Maven
       run: mvn -B verify --file pom.xml
+
+    - name: Test Summary
+      if: steps.test.outcome == 'success'
+      uses: test-summary/action@v2
+      with:
+        paths: "target/failsafe-reports/failsafe-summary.xml"
